@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "pro":"next build && next start -p 3004",
     "format": "prettier --write .",
     "test": "vitest",
     "coverage": "vitest run --coverage"
